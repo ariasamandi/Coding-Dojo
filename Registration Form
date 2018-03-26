@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<form action="process.php" method="post">
+<body>
+  <h1> My Registration From</h1>
+    <label for="first_name">First Name:</label>
+    <input type= "text" id="first_name" name="first_name">
+    <label for="last_name">Last Name:</label>
+    <input type="text" id="last_name" name="last_name">
+    <label for="email">Email</label>
+    <input type= "text" id="email" name="email">
+    <label for="password">Password</label>
+    <input type= "password" id="password" name="password">
+    <label for="password">PW Confirm</label>
+    <input type= "password" id="password" name="password">
+    <label for="birthday">Birthday</label>
+    <input date= "Birthday" id="birthday" name="birthday">
+    <select name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+    </select>
+    <p> A short description about yourself.</p>
+    <textarea name="description"></textarea>
+    <p> Favorite Language</p>
+    <label for="javascript">Javascript</label>
+    <input type="checkbox" id="javascript" name="language" value="javascript">
+    <label for="html">html</label>
+    <input type="checkbox" id="html" name="language" value="html">
+    <label for="python">Python</label>
+    <input type="checkbox" id="python" name="language" value="python">
+    <label for="ruby">Ruby</label>
+    <input type="checkbox" id="ruby" name="language" value="ruby">
+    <input type="submit" value="submit">
+  </body>
+</form>
